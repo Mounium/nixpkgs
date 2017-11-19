@@ -18803,6 +18803,8 @@ with pkgs;
 
   aliza = callPackage ../applications/science/medicine/aliza { };
 
+  slicer = callPackage ../applications/science/medicine/slicer { };
+
   ### PHYSICS
 
   sacrifice = callPackage ../applications/science/physics/sacrifice {};
