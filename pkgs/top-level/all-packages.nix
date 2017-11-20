@@ -15345,6 +15345,8 @@ with pkgs;
     gtk = gtk3;
   };
 
+  jmol = callPackage ../applications/science/chemistry/jmol { };
+
   jwm = callPackage ../applications/window-managers/jwm { };
 
   k3d = callPackage ../applications/graphics/k3d {
