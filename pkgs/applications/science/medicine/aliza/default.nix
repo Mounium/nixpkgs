@@ -5,8 +5,8 @@ stdenv.mkDerivation {
   name = "aliza";
   src = fetchurl {
     # Hosted on muoniurn's google drive
-    url = "https://drive.google.com/uc?export=download&id=1zMYfSUqMaYuvuF41zAFUC5ndR55wD7Ip";
-    sha256 = "0prlmzz8qbqqkr0plk781afq25dvy4pv89vlgccpim79psqlchl3";
+    url = "https://drive.google.com/uc?export=download&id=12Q_OPHOAqY3yBkLBd6E5rPH8uFByxyPB";
+    sha256 = "1ap6mf512farj8r2svr44fczn4wn9gab3riwal78nphk9ljdql96";
     name = "aliza.rpm";
   };
 
