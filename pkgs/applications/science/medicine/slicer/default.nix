@@ -4,8 +4,8 @@ with stdenv.lib;
 stdenv.mkDerivation {
   name = "slicer";
   src = fetchurl {
-    url = "download.slicer.org/bitstream/700004";
-    sha256 = "0sj8wb5hyhns1wnyr4v731pd6b05y091134kzplvq6ah9rbgafx3";
+    url = "http://download.slicer.org/bitstream/733693";
+    sha256 = "1m5dpgl98dvg70dp494cv1v8gd2q72igixkw4a8i3455xd7wf2sy";
     name = "slicer.tar.gz";
   };
 
