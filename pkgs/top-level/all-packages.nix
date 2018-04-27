@@ -5794,6 +5794,8 @@ with pkgs;
 
   zerofree = callPackage ../tools/filesystems/zerofree { };
 
+  zeronet = callPackage ../applications/networking/zeronet { };
+
   zfstools = callPackage ../tools/filesystems/zfstools { };
 
   zile = callPackage ../applications/editors/zile { };
